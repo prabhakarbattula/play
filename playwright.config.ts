@@ -4,7 +4,7 @@ import { devices } from '@playwright/test';
 const config: PlaywrightTestConfig = {
   // testDir: './tests',
   testMatch: [
-    "tests/example.test.ts"
+    "tests/example.spec.ts"
     // "lighthouse/unauth.test.ts",
     // "lighthouse/auth.test.ts"
     // "tests/registerUser.test.ts",
